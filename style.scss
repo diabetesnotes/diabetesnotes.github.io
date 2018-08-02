@@ -18,9 +18,10 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background: $background_color;
+  font-family:$body_font;
+  font-size: $font_size;
+  color: $font_color;
 }
 
 .container {
@@ -31,8 +32,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $heading_font;
+  color: $heading_color;
   font-weight: bold;
 
   line-height: 1.7;
@@ -118,6 +119,7 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  font-size:0.8rem;
 }
 
 // Specify the color of the selection
@@ -192,9 +194,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $heading_color;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $heading_font;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
